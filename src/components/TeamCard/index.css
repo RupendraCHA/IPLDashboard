@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.link-item {
+  list-style-type: none;
+}
+.route-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #475569;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 12px;
+  background-color: #ffffff33;
+  width: 180px;
+  height: 120px;
+}
+@media (min-width: 576px) {
+  .route-link {
+    width: 220px;
+  }
+}
+@media (min-width: 768px) {
+  .route-link {
+    width: 400px;
+  }
+}
+.team-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 12px;
+}
+.team-name {
+  font-size: 16px;
+  text-align: center;
+}
